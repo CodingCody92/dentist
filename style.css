@@ -1,0 +1,200 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #d7dddd;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  z-index: 1000;
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 30px;
+  color: #0d7a0d;
+  font-family: 'Noto Serif Display', serif;
+}
+
+.logo #st {
+  color: #13bebe;
+}
+
+header .navbar ul {
+  list-style: none;
+}
+
+header .navbar ul li {
+  display: inline-block;
+}
+
+header .navbar ul li a {
+  font-size: 20px;
+  display: block;
+  text-decoration: none;
+  color: #0c0c0c;
+  padding: 20px;
+}
+
+header .navbar ul li a:hover {
+  background: #0d7a0d;
+  padding: 13px;
+  color: white;
+}
+
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul {
+  /* resets display */
+  display: initial;
+}
+
+#menu-bar {
+  display: none;
+}
+
+header label {
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+  display: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header .btn {
+  text-decoration: none;
+  font-family: 'Playfair Display', serif;
+  background: #34db34;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+header .btn:hover {
+  background: #0df10d;
+  -webkit-transition: all ease-in .3s;
+  transition: all ease-in .3s;
+}
+
+#appoint {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.home {
+  background-color: rgba(12, 12, 12, 0.39);
+  height: 100vh;
+  position: relative;
+}
+
+.home:before {
+  content: '';
+  background: url(https://www.cherryhealth.org/wp-content/uploads/2018/08/dental2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home h1 {
+  font-size: 80px;
+  color: #f8f6f6;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 2px;
+}
+
+.home .book-btn {
+  margin-top: 20px;
+  text-decoration: none;
+  font-family: 'Playfair Display', serif;
+  background: #34db34;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+.home p {
+  color: #d7dddd;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.home-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  height: 100%;
+}
+
+@media (max-width: 991px) {
+  header {
+    padding: 20px;
+  }
+  header label {
+    display: initial;
+    color: #34db34;
+  }
+  header .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #d7dddd;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    display: none;
+  }
+  header .btn {
+    display: none;
+  }
+  header .navbar ul li {
+    width: 100%;
+  }
+  #menu-bar:checked ~ .navbar {
+    display: initial;
+  }
+  #appoint {
+    display: initial;
+  }
+}
+/*# sourceMappingURL=style.css.map */
