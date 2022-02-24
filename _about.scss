@@ -1,0 +1,51 @@
+@mixin flexMid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.about-container {
+    @include flexMid();
+}
+
+.about-container img {
+    width: 450px;
+}
+
+.about {
+    padding: 2.8em;
+}
+
+.about-us {
+    margin: 3em;
+}
+
+.about-us h4 {
+    color: rgb(13, 121, 18);
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+
+.about-us h2 {
+    font-size: 40px;
+}
+
+.about-us p {
+    font-size: 20px;
+}
+
+.about-us h2, p {
+    font-family: 'Oswald', sans-serif;
+}
+
+.about-us button {
+   margin-top: 10px;
+   font-family: 'Playfair Display', serif;
+   background: rgb(52, 219, 52);
+   padding: 10px;
+   color: rgb(255, 255, 255);
+   border-radius: 5px;
+   border: none;
+   cursor: pointer;
+}
