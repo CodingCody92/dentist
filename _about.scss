@@ -4,7 +4,6 @@
     align-items: center;
 }
 
-
 .about-container {
     @include flexMid();
 }
@@ -13,8 +12,9 @@
     width: 450px;
 }
 
-.about {
+#about {
     padding: 2.8em;
+    scroll-behavior: smooth;
 }
 
 .about-us {
@@ -35,17 +35,18 @@
     font-size: 20px;
 }
 
-.about-us h2, p {
+.about-us h2,
+p {
     font-family: 'Oswald', sans-serif;
 }
 
 .about-us button {
-   margin-top: 10px;
-   font-family: 'Playfair Display', serif;
-   background: rgb(52, 219, 52);
-   padding: 10px;
-   color: rgb(255, 255, 255);
-   border-radius: 5px;
-   border: none;
-   cursor: pointer;
+    margin-top: 10px;
+    font-family: 'Playfair Display', serif;
+    background: rgb(52, 219, 52);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
 }

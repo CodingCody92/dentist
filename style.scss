@@ -1,8 +1,7 @@
 @import './navbar';
 @import './home-section';
 @import './about';
-
-
+@import './services';
 * {
     margin: 0;
     padding: 0;
@@ -19,50 +18,35 @@
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: rgb(13, 121, 18);
+    background-color: rgb(194, 199, 194);
 }
-
-
-
-
-
-
-
 
 @media(max-width: 991px) {
     header {
         padding: 20px;
     }
-
     header label {
         display: initial;
         color: rgb(52, 219, 52);
     }
-
     header .navbar {
         position: absolute;
         top: 100%;
         left: 0;
         right: 0;
         background: rgb(215, 221, 221);
-        border-top: 1px solid rgba(0,0,0,0.1);
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
         display: none;
     }
-
-
     header .btn {
         display: none;
     }
-
     header .navbar ul li {
         width: 100%;
     }
-
-    #menu-bar:checked ~.navbar {
-        display: initial;    
+    #menu-bar:checked~.navbar {
+        display: initial;
     }
-
-
     #appoint {
         display: initial;
     }
@@ -78,7 +62,6 @@
     .about-container {
         flex-wrap: wrap;
     }
-
     .about-us {
         margin: 1em;
     }
@@ -100,11 +83,9 @@
     .about-us h4 {
         font-size: 20px;
     }
-
     .about-us h2 {
         font-size: 30px;
     }
-
     .about-us p {
         font-size: 15px;
     }

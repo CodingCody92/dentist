@@ -11,7 +11,7 @@ header {
     left: 0;
     right: 0;
     background: rgb(215, 221, 221);
-    box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
     padding: 20px;
     z-index: 1000;
 }
@@ -49,15 +49,14 @@ header .navbar ul li a:hover {
     color: rgb(255, 255, 255);
 }
 
-header .navbar ul li:focus-within > ul,
-header .navbar ul li:hover > ul {
+header .navbar ul li:focus-within>ul,
+header .navbar ul li:hover>ul {
     /* resets display */
     display: initial;
 }
 
 #menu-bar {
     display: none;
-    
 }
 
 header label {
@@ -69,18 +68,17 @@ header label {
 }
 
 header .btn {
-   text-decoration: none;
-   font-family: 'Playfair Display', serif;
-   background: rgb(52, 219, 52);
-   padding: 10px;
-   color: rgb(255, 255, 255);
-   border-radius: 5px;
-   
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    background: rgb(20, 53, 199);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
 }
 
 header .btn:hover {
-  background: rgb(13, 241, 13);
-  transition: all ease-in .3s;
+    background: rgb(13, 241, 13);
+    transition: all ease-in .3s;
 }
 
 #appoint {
