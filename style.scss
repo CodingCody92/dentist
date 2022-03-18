@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 *::-webkit-scrollbar {
@@ -88,5 +89,21 @@
     }
     .about-us p {
         font-size: 15px;
+    }
+}
+
+@media(max-width: 1230px) {
+    .service-container {
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 475px) {
+    .our-services .serv-info {
+        font-size: 10px;
+    }
+    .our-services {
+        width: 250px;
+        height: 220px;
     }
 }
