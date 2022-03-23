@@ -179,6 +179,7 @@ header .btn:hover {
 #about {
   padding: 2.8em;
   scroll-behavior: smooth;
+  background-color: #eeeeee;
 }
 
 .about-us {
@@ -220,6 +221,8 @@ p {
   text-transform: uppercase;
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
+  font-weight: bold;
+  color: #1435c7;
 }
 
 .service-container {
@@ -250,13 +253,14 @@ p {
   width: 400px;
   height: 230px;
   margin: 20px;
-  border-radius: 40px;
+  border-radius: 20px;
   -webkit-box-shadow: 3px 3px 3px 3px rgba(218, 218, 218, 0.767);
           box-shadow: 3px 3px 3px 3px rgba(218, 218, 218, 0.767);
 }
 
 .our-services h4 {
   text-align: center;
+  margin: 8px 0;
 }
 
 .our-services .serv-info {
@@ -267,6 +271,43 @@ p {
   font-family: 'Poppins', sans-serif;
   font-weight: normal;
   text-align: center;
+}
+
+.process {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 40px;
+  background-color: #eeeeee;
+}
+
+.process ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.process h3,
+li {
+  text-align: center;
+}
+
+.process h3 {
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 10px;
+}
+
+.process-container {
+  height: 430px;
+  width: 350px;
+  background-color: rgba(20, 190, 139, 0.932);
+  border-radius: 10px;
+  margin: 30px;
 }
 
 * {
@@ -375,6 +416,13 @@ p {
   .our-services {
     width: 250px;
     height: 220px;
+  }
+}
+
+@media (max-width: 1230px) {
+  .process {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 /*# sourceMappingURL=style.css.map */

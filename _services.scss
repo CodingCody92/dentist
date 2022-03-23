@@ -1,14 +1,21 @@
+@import './variables';
 #services h2 {
     text-align: center;
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
+    font-weight: bold;
+    color: $blueColor;
 }
 
-.service-container {
+@mixin flexCenter {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.service-container {
+    @include flexCenter();
     margin-top: 30px;
     padding: 0 50px;
 }
@@ -28,12 +35,13 @@
     width: 400px;
     height: 230px;
     margin: 20px;
-    border-radius: 40px;
+    border-radius: 20px;
     box-shadow: 3px 3px 3px 3px rgba(218, 218, 218, 0.767);
 }
 
 .our-services h4 {
     text-align: center;
+    margin: 8px 0;
 }
 
 .our-services .serv-info {

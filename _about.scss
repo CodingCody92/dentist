@@ -1,3 +1,4 @@
+@import './variables';
 @mixin flexMid {
     display: flex;
     justify-content: center;
@@ -15,6 +16,7 @@
 #about {
     padding: 2.8em;
     scroll-behavior: smooth;
+    background-color: $bkgdColor;
 }
 
 .about-us {

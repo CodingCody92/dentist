@@ -1,0 +1,32 @@
+@import './variables';
+.process {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: $bkgdColor;
+}
+
+.process ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.process h3,
+li {
+    text-align: center;
+}
+
+.process h3 {
+    font-family: 'Playfair Display', serif;
+    // font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.process-container {
+    height: 430px;
+    width: 350px;
+    background-color: rgba(20, 190, 139, 0.932);
+    border-radius: 10px;
+    margin: 30px;
+}

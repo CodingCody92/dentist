@@ -2,6 +2,8 @@
 @import './home-section';
 @import './about';
 @import './services';
+@import './process';
+@import './variables';
 * {
     margin: 0;
     padding: 0;
@@ -105,5 +107,11 @@
     .our-services {
         width: 250px;
         height: 220px;
+    }
+}
+
+@media(max-width: 1230px) {
+    .process {
+        flex-wrap: wrap;
     }
 }
