@@ -10,6 +10,8 @@
 .process ul li {
     text-decoration: none;
     list-style: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
 }
 
 .process h3,
@@ -21,12 +23,14 @@ li {
     font-family: 'Playfair Display', serif;
     // font-size: 15px;
     margin-bottom: 10px;
+    color: white;
 }
 
 .process-container {
     height: 430px;
     width: 350px;
-    background-color: rgba(20, 190, 139, 0.932);
+    // background-color: rgba(20, 190, 139, 0.932);
+    background-color: $blueColor;
     border-radius: 10px;
     margin: 30px;
 }

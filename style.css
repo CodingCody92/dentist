@@ -12,7 +12,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  background: #d7dddd;
+  background: #d3d2d2;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -290,6 +290,8 @@ p {
 .process ul li {
   text-decoration: none;
   list-style: none;
+  font-family: 'Poppins', sans-serif;
+  color: white;
 }
 
 .process h3,
@@ -300,14 +302,76 @@ li {
 .process h3 {
   font-family: 'Playfair Display', serif;
   margin-bottom: 10px;
+  color: white;
 }
 
 .process-container {
   height: 430px;
   width: 350px;
-  background-color: rgba(20, 190, 139, 0.932);
+  background-color: #1435c7;
   border-radius: 10px;
   margin: 30px;
+}
+
+#reviews h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #1435c7;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.review-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px;
+}
+
+#reviews .review-img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.our-reviews {
+  background-color: #eeeeee;
+  height: 350px;
+  width: 360px;
+  border-radius: 30px;
+  margin: 30px;
+}
+
+.our-reviews .rev-txt {
+  text-align: center;
+  margin: 10px;
+}
+
+.our-reviews .stars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+}
+
+.our-reviews .stars .checked {
+  color: #1435c7;
 }
 
 * {
@@ -329,6 +393,13 @@ li {
 
 *::-webkit-scrollbar-thumb {
   background-color: #c2c7c2;
+}
+
+.active {
+  background-color: white;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1);
+          box-shadow: rgba(0, 0, 0, 0.1);
+  border: none;
 }
 
 @media (max-width: 991px) {

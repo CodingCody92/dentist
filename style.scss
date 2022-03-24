@@ -3,6 +3,7 @@
 @import './about';
 @import './services';
 @import './process';
+@import './reviews';
 @import './variables';
 * {
     margin: 0;
@@ -22,6 +23,12 @@
 
 *::-webkit-scrollbar-thumb {
     background-color: rgb(194, 199, 194);
+}
+
+.active {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, .1);
+    border: none;
 }
 
 @media(max-width: 991px) {

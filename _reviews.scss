@@ -1,0 +1,50 @@
+#reviews h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: $blueColor;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-container {
+    @include flexCenter();
+    padding: 50px;
+}
+
+#reviews .review-img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.our-reviews {
+    background-color: $bkgdColor;
+    height: 350px;
+    width: 360px;
+    border-radius: 30px;
+    margin: 30px;
+}
+
+.our-reviews .rev-txt {
+    text-align: center;
+    margin: 10px;
+}
+
+.our-reviews .stars {
+    @include flexCenter();
+    margin-top: 30px;
+}
+
+.our-reviews .stars .checked {
+    color: $blueColor;
+}
