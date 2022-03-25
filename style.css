@@ -22,7 +22,7 @@ header {
 .logo {
   text-decoration: none;
   font-size: 30px;
-  color: #0d7a0d;
+  color: #d8bc1f;
   font-family: 'Noto Serif Display', serif;
 }
 
@@ -47,9 +47,10 @@ header .navbar ul li a {
 }
 
 header .navbar ul li a:hover {
-  background: #0d7a0d;
+  background: #0d497a;
   padding: 13px;
   color: white;
+  border-radius: 10px;
 }
 
 header .navbar ul li:focus-within > ul,
@@ -73,14 +74,14 @@ header label {
 header .btn {
   text-decoration: none;
   font-family: 'Playfair Display', serif;
-  background: #1435c7;
+  background: #0d497a;
   padding: 10px;
   color: white;
   border-radius: 5px;
 }
 
 header .btn:hover {
-  background: #0df10d;
+  background: #cdd1cd;
   -webkit-transition: all ease-in .3s;
   transition: all ease-in .3s;
 }
@@ -129,7 +130,7 @@ header .btn:hover {
   margin-top: 20px;
   text-decoration: none;
   font-family: 'Playfair Display', serif;
-  background: #1435c7;
+  background: #0d497a;
   padding: 10px;
   color: white;
   border-radius: 5px;
@@ -187,7 +188,7 @@ header .btn:hover {
 }
 
 .about-us h4 {
-  color: #0d7912;
+  color: #0d497a;
   font-family: 'Playfair Display', serif;
   font-size: 30px;
 }
@@ -208,7 +209,7 @@ p {
 .about-us button {
   margin-top: 10px;
   font-family: 'Playfair Display', serif;
-  background: #34db34;
+  background: #0d497a;
   padding: 10px;
   color: white;
   border-radius: 5px;
@@ -222,7 +223,7 @@ p {
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
   font-weight: bold;
-  color: #1435c7;
+  color: #0d497a;
 }
 
 .service-container {
@@ -308,7 +309,7 @@ li {
 .process-container {
   height: 430px;
   width: 350px;
-  background-color: #1435c7;
+  background-color: #0d497a;
   border-radius: 10px;
   margin: 30px;
 }
@@ -317,7 +318,7 @@ li {
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
   font-weight: bold;
-  color: #1435c7;
+  color: #0d497a;
   text-align: center;
   text-transform: uppercase;
 }
@@ -371,7 +372,7 @@ li {
 }
 
 .our-reviews .stars .checked {
-  color: #1435c7;
+  color: #0d497a;
 }
 
 * {
@@ -494,6 +495,36 @@ li {
   .process {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1150px) {
+  .review-container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 595px) {
+  #reviews h3 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 455px) {
+  .our-reviews {
+    height: 280px;
+    width: 260px;
+  }
+  .our-reviews .rev-txt {
+    font-size: 10px;
+  }
+  .our-reviews .stars {
+    font-size: 12px;
+  }
+  #reviews .review-img {
+    height: 70px;
+    width: 70px;
   }
 }
 /*# sourceMappingURL=style.css.map */

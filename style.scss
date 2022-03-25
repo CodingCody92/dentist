@@ -122,3 +122,32 @@
         flex-wrap: wrap;
     }
 }
+
+@media(max-width: 1150px) {
+    .review-container {
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 595px) {
+    #reviews h3 {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 455px) {
+    .our-reviews {
+        height: 280px;
+        width: 260px;
+    }
+    .our-reviews .rev-txt {
+        font-size: 10px;
+    }
+    .our-reviews .stars {
+        font-size: 12px;
+    }
+    #reviews .review-img {
+        height: 70px;
+        width: 70px;
+    }
+}

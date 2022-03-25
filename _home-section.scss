@@ -1,3 +1,4 @@
+@import './variables';
 .home {
     background-color: rgba(12, 12, 12, 0.39);
     height: 100vh;
@@ -29,13 +30,13 @@
 }
 
 .home .book-btn {
-   margin-top: 20px;
-   text-decoration: none;
-   font-family: 'Playfair Display', serif;
-   background: rgb(20, 53, 199);
-   padding: 10px;
-   color: rgb(255, 255, 255);
-   border-radius: 5px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    background: $blueColor;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
 }
 
 .home p {

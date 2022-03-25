@@ -1,3 +1,4 @@
+@import './variables';
 @mixin navFlex {
     display: flex;
     justify-content: space-between;
@@ -19,7 +20,7 @@ header {
 .logo {
     text-decoration: none;
     font-size: 30px;
-    color: rgb(13, 122, 13);
+    color: rgb(216, 188, 31);
     font-family: 'Noto Serif Display', serif;
 }
 
@@ -44,9 +45,10 @@ header .navbar ul li a {
 }
 
 header .navbar ul li a:hover {
-    background: rgb(13, 122, 13);
+    background: rgb(13, 73, 122);
     padding: 13px;
     color: rgb(255, 255, 255);
+    border-radius: 10px;
 }
 
 header .navbar ul li:focus-within>ul,
@@ -70,14 +72,14 @@ header label {
 header .btn {
     text-decoration: none;
     font-family: 'Playfair Display', serif;
-    background: rgb(20, 53, 199);
+    background: $blueColor;
     padding: 10px;
     color: rgb(255, 255, 255);
     border-radius: 5px;
 }
 
 header .btn:hover {
-    background: rgb(13, 241, 13);
+    background: rgb(205, 209, 205);
     transition: all ease-in .3s;
 }
 
