@@ -17,4 +17,7 @@ bars.addEventListener('click', () => {
 
 appoint.addEventListener('click', () => {
     appoint.style.backgroundColor = 'black';
+    setTimeout(() => {
+        appoint.style.backgroundColor = 'rgb(13, 73, 122)'
+    }, 2000);
 })
