@@ -2,7 +2,7 @@
 #services h2 {
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Poppins', sans-serif;
+    font-family: $serviceFont;
     font-size: 40px;
     font-weight: bold;
     color: $blueColor;

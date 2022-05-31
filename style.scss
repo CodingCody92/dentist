@@ -138,11 +138,11 @@
 
 @media(max-width: 455px) {
     .our-reviews {
-        height: 280px;
+        height: 320px;
         width: 260px;
     }
     .our-reviews .rev-txt {
-        font-size: 10px;
+        font-size: 14px;
     }
     .our-reviews .stars {
         font-size: 12px;
@@ -150,6 +150,19 @@
     #reviews .review-img {
         height: 70px;
         width: 70px;
+    }
+}
+
+@media(max-width: 330px) {
+    .our-reviews {
+        height: 280px;
+        width: 290px;
+    }
+    .our-reviews .rev-txt {
+        font-size: 10px;
+    }
+    .our-reviews .stars {
+        font-size: 12px;
     }
 }
 

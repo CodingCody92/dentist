@@ -1,14 +1,18 @@
 @import './variables';
-.process {
+@mixin processFlex {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.process {
+    @include processFlex();
     padding: 40px;
     background-color: $bkgdColor;
 }
 
 .process ul li {
-    text-decoration: none;
+    text-decoration: $noDecor;
     list-style: none;
     font-family: 'Poppins', sans-serif;
     color: white;
@@ -20,7 +24,7 @@ li {
 }
 
 .process h3 {
-    font-family: 'Playfair Display', serif;
+    font-family: $headerFont;
     // font-size: 15px;
     margin-bottom: 10px;
     color: white;

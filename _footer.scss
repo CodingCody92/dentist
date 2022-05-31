@@ -1,12 +1,22 @@
 @import './variables';
+@mixin flexSpace {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@mixin titleFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .foot {
     background-color: $blueColor;
 }
 
 .footer-container {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    @include flexSpace();
     padding: 3em;
 }
 
@@ -45,7 +55,5 @@
 }
 
 .foot-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include titleFlex();
 }

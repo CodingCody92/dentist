@@ -25,7 +25,7 @@
 
 .about-us h4 {
     color: $blueColor;
-    font-family: 'Playfair Display', serif;
+    font-family: $headerFont;
     font-size: 30px;
 }
 
@@ -44,7 +44,7 @@ p {
 
 .about-us button {
     margin-top: 10px;
-    font-family: 'Playfair Display', serif;
+    font-family: $headerFont;
     background: $blueColor;
     padding: 10px;
     color: rgb(255, 255, 255);

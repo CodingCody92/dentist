@@ -18,7 +18,7 @@ header {
 }
 
 .logo {
-    text-decoration: none;
+    text-decoration: $noDecor;
     font-size: 30px;
     color: rgb(216, 188, 31);
     font-family: 'Noto Serif Display', serif;
@@ -39,7 +39,7 @@ header .navbar ul li {
 header .navbar ul li a {
     font-size: 20px;
     display: block;
-    text-decoration: none;
+    text-decoration: $noDecor;
     color: rgb(12, 12, 12);
     padding: 20px;
 }
@@ -70,8 +70,8 @@ header label {
 }
 
 header .btn {
-    text-decoration: none;
-    font-family: 'Playfair Display', serif;
+    text-decoration: $noDecor;
+    font-family: $headerFont;
     background: $blueColor;
     padding: 10px;
     color: rgb(255, 255, 255);
