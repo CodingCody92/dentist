@@ -1,5 +1,7 @@
 let header = document.querySelector('.header');
-let navbar = document.querySelector('.navbar')
+let navbar = document.querySelector('.navbar');
+let bars = document.getElementById('menu-bar');
+let appoint = document.querySelector('.btn')
 
 window.onscroll = () => {
     if (window.scrollY > 100) {
@@ -8,3 +10,11 @@ window.onscroll = () => {
         header.classList.remove('active');
     }
 };
+
+bars.addEventListener('click', () => {
+    bars.style.color = 'black';
+})
+
+appoint.addEventListener('click', () => {
+    appoint.style.backgroundColor = 'black';
+})
