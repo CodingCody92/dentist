@@ -5,6 +5,7 @@
 @import './process';
 @import './reviews';
 @import './variables';
+@import './footer';
 * {
     margin: 0;
     padding: 0;
@@ -149,5 +150,16 @@
     #reviews .review-img {
         height: 70px;
         width: 70px;
+    }
+}
+
+@media(max-width: 800px) {
+    .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1.5em;
+    }
+    .foot-end {
+        margin: 1.5em;
     }
 }

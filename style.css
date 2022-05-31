@@ -12,7 +12,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  background: #d3d2d2;
+  background: #e5e5e5;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -375,6 +375,68 @@ li {
   color: #0d497a;
 }
 
+.foot {
+  background-color: #0d497a;
+}
+
+.footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3em;
+}
+
+.foot-end h3 {
+  margin: 4px;
+  font-size: 22px;
+}
+
+.foot-end h3 {
+  color: #fff;
+}
+
+.foot-end p {
+  color: #fff;
+  margin: 3px;
+}
+
+.foot-end a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.foot-end a:hover {
+  color: #eeeeee;
+}
+
+.foot-end .social {
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+}
+
+.foot-end .social:hover {
+  cursor: pointer;
+}
+
+.foot-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -525,6 +587,20 @@ li {
   #reviews .review-img {
     height: 70px;
     width: 70px;
+  }
+}
+
+@media (max-width: 800px) {
+  .footer-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 1.5em;
+  }
+  .foot-end {
+    margin: 1.5em;
   }
 }
 /*# sourceMappingURL=style.css.map */
