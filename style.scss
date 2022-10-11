@@ -57,6 +57,7 @@
     }
     #menu-bar:checked~.navbar {
         display: initial;
+        transition: ease-in;
     }
     #appoint {
         display: initial;

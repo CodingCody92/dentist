@@ -98,7 +98,7 @@ header .btn:hover {
 
 .home:before {
   content: '';
-  background: url(https://www.cherryhealth.org/wp-content/uploads/2018/08/dental2.jpg);
+  background: url(https://images.pexels.com/photos/3845653/pexels-photo-3845653.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -492,6 +492,8 @@ li {
   }
   #menu-bar:checked ~ .navbar {
     display: initial;
+    -webkit-transition: ease-in;
+    transition: ease-in;
   }
   #appoint {
     display: initial;
